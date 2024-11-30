@@ -68,7 +68,7 @@ function init() {
         );
 
     }).catch((error) => {
-        console.error('Error during initialization:', error);
+        console.error(colors.red('Error during initialization:', error));
     });
 }
 
